@@ -1,0 +1,32 @@
+<html>
+    <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+     <title>Nowe możliwości CSS</title>
+    </head>
+<style>
+@import url("koco_z15.css ");
+</style>
+</head>
+
+<body>
+ :) uśmiech 
+<p> :,( płacz </p>
+ :0 zaskoczenie 
+<p> :( smutek </p>
+ :C duży smutek
+<p>>:( złość </p>
+
+</body>
+
+</html>
+
+
+
+body {
+font-size: 30pt;
+color: #8D59D3;
+}
+p {
+font-size: 20pt;
+color: #6FA659;
+}

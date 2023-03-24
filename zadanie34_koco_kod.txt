@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>zadanie 32-nazwisko_ucznia</title>
+<meta charset="utf-8" />
+<style type="text/css">
+h1 {
+width: 400pt;
+height:2,8cm;
+border : 2px double;
+border-top-color: silver;
+border-bottom-color: maroon;
+border-left-color: purple;
+border-right-color: red;
+background : rgb(70,130,180);
+margin-left : 710px;
+}
+
+h2 {
+width: 300pt;
+height: 3cm;
+border: 2px inset gray;
+background : rgb(176,196,222);
+margin-left : 340px;
+}
+</style>
+<style>
+@import url("zadanie34_koco.css");
+</style>
+</head>
+
+<body>
+<h1>kocon <br>
+width: 400pt;<br>
+height:2,8cm;<br>
+border : 2px double;<br>
+border-top-color: silver;<br>
+border-bottom-color: maroon;<br>
+border-left-color: purple;<br>
+border-right-color: red;<br>
+background : rgb(70,130,180);
+margin-left : 710px; </h1>
+
+<h2>maks <br>
+width: 300pt;<br>
+height: 3cm;<br>
+border: 2px inset gray;<br>
+background : rgb(176,196,222);<br>
+margin-left : 340px;
+ </h2>
+ 
+ <h3>15 1P <br>
+ width: 200pt;<br>
+height: 4cm;<br>
+border: 2px dotted silver;<br>
+margin : 40px;
+ </h3>
+
+</body>
+
+</html>
+
+<!--maks kocon -->
+
+
+
+
+
+h3{
+width: 200pt;
+height: 4cm;
+border: 2px dotted silver;
+margin : 40px;
+}

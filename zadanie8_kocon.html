@@ -1,0 +1,60 @@
+<html>
+    <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+     <title>Nowe możliwości CSS</title>
+    </head>
+    
+    <body>
+
+<h1>
+<font face="Arial">
+<ol>
+<li>gdzie jest wstawiany</font></h1>
+Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami <head> a 
+</head>)
+</li></ol>
+
+<h1><ol start="2">
+<font face="Arial"><li>składnia teoretyczna (w ramce, konieczne wcięcia)</font></h1>
+<table border="2">
+<td>
+
+&nbsp;<&nbsp;head><br>
+&nbsp;	&nbsp;	&nbsp;(...)<br>
+&nbsp;	<&nbsp;style type="text/css"><br>
+&nbsp;	&nbsp;/&nbsp;* <&nbsp;![&nbsp;CDATA&nbsp;[ *&nbsp;/<br>
+&nbsp;	&nbsp;	&nbsp; selektor1 { &nbsp;cecha: wartość; cecha2: wartość2... }<br>
+&nbsp;	&nbsp;	&nbsp; selektor2 {&nbsp; cecha: wartość; cecha2: wartość2... }<br>
+&nbsp;	&nbsp;	&nbsp; (...)<br>
+&nbsp;	&nbsp; /&nbsp;* ]&nbsp;]> */<br>
+&nbsp;	&nbsp; <&nbsp;/&nbsp;style><br>
+&nbsp;	&nbsp;	&nbsp;(...)<br>
+<&nbsp;/&nbsp;head>
+
+</td>
+</table>
+</li></ol>
+
+<h1><ol start="3">
+<font face="Arial"><li>jakie mogą być selektory</font></h1>
+Dowolny znacznik.
+</li></ol>
+
+
+<h1><ol start="4">
+<font face="Arial"><li>jakie mogą być cechy i wartości</font></h1>
+Jako "cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty 
+formatowania nam chodzi (opisane w kolejnych rozdziałach).
+Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu.
+Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy 
+rozdzielone średnikami.
+
+</li></ol>
+
+
+</ol></li>
+</font>
+
+
+</body>
+</html>

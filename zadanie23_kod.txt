@@ -1,0 +1,105 @@
+<html>
+    <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style>
+                @import url("kocon_z23.css");
+        </style>
+    </head>
+<body>
+
+<p id="pogrubienie_kocon">
+kocon<br>
+Pewien informatyk poszedł na ryby.<br>
+Złapał złotą rybkę, która obiecała spełnić tradycyjnie trzy życzenia.<br>
+Informatyk mówi:<br>
+- Żeby był pokój na świecie.<br>
+- Za trudne.<br>
+- No to, aby windows się nie zacinał.<br>
+- To już niech będzie ten pokój na świecie.<br><br>
+</p>
+
+<p id="pochylona_kocon">
+kocon<br>
+Co robi informatyk budząc się na kacu?<br>
+Testuje pamięć.<br><br>
+</p>
+
+<p id="indeks_gorny_kocon">
+kocon<br>
+Co mówi ksiądz na ślubie informatyka?<br>
+- Pobieranie zakończone<br><br>
+</p>
+
+<p id="indeks_dolny_kocon">
+kocon<br>
+Skąd informatyk bierze wodę?<br>
+Z eKranu<br><br>
+</p>
+
+<p id="mono_kocon">
+kocon<br>
+Co mówi informatyk, kiedy dostanie na urodziny pendrive?<br>
+Dzięki za pamięć.<br><br>
+</p>
+
+<p id="powiekszenie_kocon">
+kocon<br>
+Jak informatyk wywiesza pranie?<br>
+- Na linkach<br><br>
+</p>
+
+<p id="pomniejszenie_kocon">
+kocon<br>
+Żona informatyka mówi do męża:<br>
+- Kochanie zamknij okno.<br>
+- Jasne alt+f4.<br><br>
+</p>
+
+</body>
+</html>
+<!--maks kocon -->
+
+
+
+
+
+
+p#pogrubienie_kocon{
+font-weight: bold;
+font-size: 30px;
+color: #8d59d3;
+}
+
+p#pochylona_kocon{
+font-style: italic;
+font-size: 35pt;
+color: #f1bd6f;
+}
+
+p#indeks_gorny_kocon{
+font-size: 1cm;
+color: #a18b1f;
+vertical-align: super;
+}
+
+p#indeks_dolny_kocon{
+font-size: 0.5cm;
+color: (47%, 68%, 86%);
+vertical-align: sub;
+}
+
+p#mono_kocon{
+font-size: 40px;
+color: #21db6f;
+font-family: monospace;
+}
+
+p#powiekszenie_kocon{
+color: #5b3ba1;
+font-size: larger;
+}
+
+p#pomniejszenie_kocon{
+color: (36%, 0%, 0%);
+font-size: smaller;
+}

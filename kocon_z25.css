@@ -1,0 +1,59 @@
+p#akapit1_kocon{
+align: right;
+font-family: serif;
+color: #ffa500;
+text-indent: 28mm;
+line-height: 2cm;
+word-spacing: 10px;
+letter-spacing: 2ex;
+}
+
+z1_kocon{
+text-decoration: overline;
+font-weight: 500;
+font-size: small;
+text-transform: uppercase;
+}
+
+z2_kocon{
+font-style: italic;
+font-weight: 600;
+font-size: medium;
+}
+
+z3_kocon{
+font-variant: small-caps;
+font-weight: 700;
+font-size: xx-large;
+}
+
+
+p#akapit2_kocon{
+align: center;
+font-family: sans serif;
+color: #20b2aa;
+text-indent: 3cm;
+line-height: 20mm;
+word-spacing: 10pt;
+letter-spacing: 0.25cm;
+}
+
+z4_kocon{
+text-decoration: line-through;
+font-weight: 300;
+font-size: 15px;
+text-transform: capitalize;
+}
+
+z5_Kocon{
+font-style: oblique;
+font-weight: 600;
+font-size: 3em;
+}
+
+z5_kocon{
+font-variant: small-caps;
+font-weight: 800;
+font-size: 2in;
+}
+

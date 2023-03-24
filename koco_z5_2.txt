@@ -1,0 +1,34 @@
+﻿
+<!--Kod HTML-->
+<!--kocon -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>styl zewnętrzny</title>
+        
+        <!-- zewnętrzne -->
+        <link href="koco_z5_2.css" rel="stylesheet" type="text/CSS">
+    </head>
+    
+    <body bgcolor="silver" >
+        <p>kocon -> zewnętrzne</p> 
+    </body>
+</html>
+
+<!--Koniec Kodu HTML-->
+
+
+
+
+/* Kod CSS zewnętrznego arkusza stylów dołączony do HTML-a */
+
+/* kocon */
+
+p {
+color: purple;
+font-size: 54 px;
+}
+
+/* Koniec Kodu CSS */

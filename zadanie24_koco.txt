@@ -1,0 +1,58 @@
+<html>
+    <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+<body>
+<ol>
+<h1><li>Jakie standardowo dostępne są czcionki w systemie Windows( trzy, użyj wyliczenia z kwadratem) <h1><li>
+
+<ul type="square">
+W systemie Windows standardowo dostępne powinny być czcionki: 
+<li>Times New Roman (szeryfowa), </li>
+<li>Arial (bezszeryfowa), </li>
+<li>Courier New (monotypiczna). </li>
+</ul>
+
+<h1><li>Jakich czcionek dodatkowo dostarcza Internet Explorerem ( cztery, użyj wyliczenia z 
+okręgiem nie kołem) . <h1><li>
+Dodatkowo z Internet Explorerem dostarczane są: 
+<ul type="circle">
+<li>Verdana, </li>
+<li>Tahoma, </li>
+<li>'Trebuchet MS', </li>
+Georgia. 
+</ul>
+
+<h1><li> <h1><li>
+
+<h1><li> <h1><li>
+
+<h1><li> <h1><li>
+
+<h1><li> <h1><li>
+
+<h1><li> <h1><li>
+
+<h1><li> <h1><li>
+
+<h1><li> <h1><li>
+
+<h1><li> <h1><li>
+
+<h1><li> <h1><li>
+
+<h1><li> <h1><li>
+
+<h1><li> <h1><li>
+
+<h1><li> <h1><li>
+
+<h1><li> <h1><li>
+
+<h1><li> <h1><li>
+</ol>
+
+
+
+</body>
+</html>

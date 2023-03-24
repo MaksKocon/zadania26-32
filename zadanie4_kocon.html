@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+<b>1) <u>Zewnętrzny</u> arkusz stylów.</b><br>
+<TEXTAREA VALUE=<head>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>></TEXTAREA><br>
+
+<b>2) Styl <u>lokalny</u> inaczej: (styl wypisany, liniowy, linijkowy, w linii) czyli dopisanie arkusza do wybranego bloku treści strony.<b><br>
+<TEXTAREA VALUE=<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+></TEXTAREA><br>
+
+
+<b>3) <u>Wewnętrzny</u> arkusz stylów.</b><br>
+<TEXTAREA VALUE=<head>
+ <style type="text/css">
+ selektor1 { cecha: wartość; cecha2: wartość2... }
+ selektor2 { cecha: wartość; cecha2: wartość2... }
+ </style>
+</head>
+></TEXTAREA><br>
+
+<b>4) <u>Alternatywny</u> arkusz stylów.</b><br>
+<TEXTAREA VALUE=<head>
+<link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+<link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+<link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>></TEXTAREA><br>
+
+<b>5) <u>Import</u> arkusza stylów.</b><br>
+<TEXTAREA VALUE=<style type="text/css">
+ @import url(adres zewnętrznego arkusza stylów);
+</style>></TEXTAREA><br>
+
+</body>
+</html>

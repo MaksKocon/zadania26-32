@@ -1,0 +1,61 @@
+<html>
+<body>
+<!-- początek bloku DIV 1 -->
+<div style="background-color: purple; width: 1095px">
+<span style="color: fuchsia;font-size: 16mm;font-family: Arial;">
+Znacznik DIV (blok 1)-->kocon
+</span>
+<br />
+<span style="font-size: 8mm;font-family: Times New Roman;">
+<b><u> Element blokowy (DIV)</u> </b> jest elementem blokowym może zawierać wewnątrz siebie zwykły tekst, jak również inne elementy blokowe. Został on pomyślany do tworzenia obszerniejszych struktur.
+</span>
+<span style="font-family: Helvetica; font-size: 5mm;"> <br />
+Zastosowanie DIV
+<span style="color:aqua; font-size: 7mm">
+<ul type="square">
+<li>
+Z div'a powinno się korzystać kiedy potrzebujemy wyodrębnić poszczególne bloki w układzie dokumentu, na przykład lewa kolumna, menu nawigacyjne, stopka.
+</li>
+<li>Służy do utworzenia sekcji (bloku) w pliku HTML w celu ich sformatowania za pomocą arkusza stylów CSS.</li>
+</ul>
+</span>
+</div>
+<!-- koniec bloku DIV 
+
+<!-- początek bloku SPAN 2 -->
+<div style="background-color:maroon; width: 995px">
+<span style="color: blue;font-size: 1.2cm;font-family: sans-serif;">
+Znacznik SPAN (blok 2)-->09:21 2023-01-13
+</span>
+<br />
+<span style="color: gray;font-size: 7mm;font-family: comic sans;">
+<ul type="circle">
+<li>
+<b><u>Elementy wyświetlanie w linii (SPAN)</u> </b> jest elementem liniowym nie mogą zawierać elementów blokowych, ale mogą inne elementy wyświetlane w linii oraz zwykły tekst
+</li>
+<li> Jeśli chcemy w paragrafie część tekstu wyróżnić czerwonym kolorem, do wyodrębnienia tego tekstu możemy użyć elementu div(paragraf z zasady nie może zawierać elementów blokowych) tylko span. Wewnątrz DIV można oczywiście wpisać również SPAN.
+</li>
+</span>
+</div>
+<!-- koniec bloku SPAN 
+
+<!-- początek bloku SPAN 3 -->
+<div style="background-color:red; width: 1195px">
+<span style="color: green;font-size: 1cm;font-family: Cairo;">
+Różnica między znacznikami DIV i SPAN (blok3)-->1P
+</span>
+<br />
+<span style="color: olive;font-size: 9mm;font-family: Cabin;">
+<ul type="dot">
+<li>
+<b><b><u>Span'em wyodrębniamy elementy liniowe</u></b> (najczęśćiej fragmenty tekstu) a <b><u> divem blokowe</b></u> elementy, większe fragmenty struktury<br>
+ składające się na układ stron.
+</li>
+<li> Dodatkowo DIV domyśle jest wyświetlany w bloku. Natomiast SPAN w linii.
+</li>
+</span>
+</div>
+<!-- koniec bloku SPAN 
+</body>
+</html>
+<!--maksymilian kocon -->

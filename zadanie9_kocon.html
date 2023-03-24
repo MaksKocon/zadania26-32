@@ -1,0 +1,100 @@
+<html>
+    <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+     <title>Nowe możliwości CSS</title>
+    </head>
+<body>
+<font face="arial">
+<OL START=1>
+<h1><LI>Składnia teoretyczna  otoczony ramką (może być tabela jedno komórkowa, 
+konieczne wcięcia).</h1><br>
+</LI>
+<table border="2">
+<td>
+
+<&nbsp;head&nbsp;><br>
+&nbsp;	&nbsp;	&nbsp;(...)<br>
+&nbsp;	&nbsp;	&nbsp;<&nbsp;link rel="Stylesheet" type="text/css" href="style.css" /&nbsp;><br>
+&nbsp;	&nbsp;	&nbsp;(...)<br>
+<&nbsp;/&nbsp;head&nbsp;>
+
+</td>
+</table>
+</OL>
+
+<OL START=2>
+<h1><LI>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz 
+ile razy może on występować w dokumencie, jako podłączenie stylu CSS?</h1><br>
+</LI>Wstawiany jest w nagłówku dokumentu, pomiędzy znacznikami head, można dołączyć dowolną liczbę arkuszy stylu.</OL>
+
+<OL START=3>
+<h1><LI>Jak jest najprostsza forma wstawiania stylu zewnętrznego  otoczony ramką (może 
+być tabela jedno komórkowa?</h1><br>
+</LI>
+<table border="2">
+<td>
+<&nbsp;link rel="Stylesheet" type="text/css" href="style.css" &nbsp;/&nbsp;>
+</td>
+</table>
+</OL>
+
+<OL START=4>
+<h1><LI> Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad 
+musi być zachowana przy większej ilości dołączanych styli?</h1><br>
+</LI>Można dołączyć dowolną liczbę zewnętrznych arkuszy stylów , każdy musi być jako osobny element.</OL>
+
+<OL START=5>
+<h1><LI>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style 
+są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.</h1><br>
+</LI>W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później.
+</OL>
+
+<OL START=6>
+<h1><LI>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</h1><br>
+</LI>Tworzone i edytowane są w dowolnym edytorze.</OL>
+
+<OL START=7>
+<h1><LI>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</h1><br>
+</LI>Z użyciem specjalnego edytora jest mniejsze ryzko popełnienia błędu.</OL>
+
+<OL START=8>
+<h1><LI>Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?</h1><br>
+</LI>css</OL>
+
+<OL START=9>
+<h1><LI>Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia?</h1><br>
+</LI>
+<OL START1>
+<LI>wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy</LI>
+<LI>jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich 
+stronach, możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez 
+konieczności zmiany każdej strony osobno</LI>
+</OL>
+</OL>
+
+<OL START=10>
+<h1><LI>Uwagi na temat pisania w CSS. </h1><br>
+</LI>
+Uwaga1:<br>
+Język CSS dopuszcza stosowanie zarówno dużych, jak i małych liter. 
+Poprawnymi nazwami atrybutu są background, backGROUND oraz BACKground.<br>
+Uwaga2:<br>
+Wstawienie białych znaków (spacje, tabulacje, znaki nowej linii) w arkuszu CSS nie ma 
+wpływu na jego działanie. <br>
+Uwaga3:<br>
+Dlatego możesz ułożyć wpisywane reguły CSS w taki sposób, aby były bardziej czytelne np.
+H1 {
+ font-weight : bold;
+ }
+możemy zapisać
+H1{font-weight:bold;}<br>
+Uwaga4:<br>
+Komentarze w arkuszu stylów 
+pisze się używając znaków: /* (otworzenie komentarza) oraz */ (zamknięcie komentarza), 
+np.: /*to jest komentarz*/. 
+Wszystko pomiędzy tymi znakami jest ignorowane przez przeglądarkę. <br>
+</OL>
+
+</font>
+</body>
+</html>

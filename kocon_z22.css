@@ -1,0 +1,16 @@
+p{
+color: red;
+font-size: 22;
+}
+
+p#gruby_kocon{
+color: green;
+font-size: 17;
+font-weight: bold;
+}
+
+#dlawszystkich_kocon{
+color: yellow;
+font-size: 10;
+font-family: Arial;
+}
